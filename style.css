@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color:#dfe6e9;
+text-align: left;
+padding: 20px;
+}
+
+.col-2 {
+    width:16.66%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%; 
+     float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.row {
+
+    width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.row ::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+.col-4, .col-10, .col-2 {
+    border: 1px solid black;
+}
+.col-4, .col-10 {
+    background-color:#74b9ff ;
+
+}
